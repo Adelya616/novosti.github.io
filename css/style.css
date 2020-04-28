@@ -1,6 +1,7 @@
 body {
     font-family: Playfair Display;
     font-style: normal;
+    min-width: 100vw;
 }
 header .name {
     display: flex;
@@ -145,7 +146,7 @@ li:last-child {
     display: flex;
     position: relative;
     top: 230px;
-    left: 48vh;
+    left: 47vmin;
     text-align: center;
     width: 400px;
     margin-top: 10px;
@@ -254,11 +255,11 @@ footer h2 {
     height: 50px;
     margin: 5px;
     background-color: white;
+    
 }
 .social-network div img {
     position: relative;
     top:15px;
     left: 15px;
     vertical-align: middle;
-    text-align: center;
 }
