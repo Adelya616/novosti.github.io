@@ -1,0 +1,254 @@
+body {
+    font-family: Playfair Display;
+    font-style: normal;
+}
+header .name {
+    position: absolute;
+    width: 347px;
+    height: 47px;
+    left: 475px;
+    top: 50px;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+ ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+   list-style: none; 
+   text-transform:uppercase;
+   font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 150px; 
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+li:first-child {
+    margin-left: 50px;
+}
+li:last-child {
+    margin-right: 100px;
+}
+.title-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
+    background: url(img/Hotel.jpg) no-repeat center;
+    background-size: contain;
+    height: 400px;
+    font-weight: normal;
+    text-align: center;
+}
+.title-img h2 {
+    margin-left: 50px;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 84px;
+    letter-spacing: 2px;
+    position: relative;
+}
+.title-logo {
+    position: relative;
+    top: 15px;
+    background: url('img/Group.png');
+    width:50px;
+    height: 50px; 
+    background-size: cover;
+    z-index: 10;
+    border-radius: 50px;
+    
+}
+.title-img p {
+    margin-left: 400px;
+    margin-right: 400px;
+    line-height: 25px;
+    font-weight: normal;
+    font-size: 12px;
+    position: relative;
+    top: -25px;
+}
+.review {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    letter-spacing: 2px;
+}
+.card-review {
+    font-family: Roboto;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 250px;
+    left: 20px;
+    margin: 0px 10px 10px 20px;
+    text-align: left;
+}
+.card-review p {
+    text-align: left;
+    font-size: 15px;
+}
+.card-review div {
+    width: 400px;
+}
+.card-review div div {
+    width: 380px;
+    margin-left: 10px;
+}
+.card-review h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+.subscription {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.subscription-card {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    top: 300px;
+    left: 420px;
+    text-align: center;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.subscription-card h2 {
+    position: relative;
+    top: 20px;
+    left: 120px;
+    width: 150px;
+    height: 30px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: white;
+    background: #FF7931;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    padding-right: 20px;
+}
+.subscription-card img {
+    position: relative;
+    top: -26px;
+    left: 240px;
+    z-index: 10;
+    width: 25px;
+}
+.subscription-card p {
+    position: relative;
+    left: 20px;
+    font-family: Roboto;
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+}
+.subscription-card a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background: #575757;
+    position: relative;
+    top: 380px; 
+    z-index: -1;
+    height: 300px;
+    color: white;
+}
+footer h2 {
+    position: relative;
+    width: 347px;
+    height: 47px;
+    left: 495px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 47px;
+    letter-spacing: 1px;
+}
+.menu-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-bottom li {
+   list-style: none; 
+   text-transform:uppercase;
+   font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20px;
+    height: 60px;
+}
+.menu-bottom::after {
+    position: absolute;
+    top: 145px;
+    left: 88px;
+    content: '';
+    width: 1060px;
+    opacity: 0.4;
+    border-bottom: 1px solid #FFFFFF;
+}
+.menu-bottom a {
+    text-decoration: none;
+    color: white;
+}
+.social-network div{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 520px;
+    width: 50px;
+    height: 50px;
+    flex-direction: row;
+    margin: 5px;
+    vertical-align: middle;
+    background-color: white;
+    background-position: center;
+}
+.social-network div img {
+    position: relative;
+    top:15px;
+    left: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
