@@ -1,19 +1,19 @@
 body {
     font-family: Playfair Display;
     font-style: normal;
-    width: 100%;
 }
 header .name {
-    position: absolute;
-    width: 347px;
-    height: 47px;
-    left: 475px;
-    top: 50px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 30px;
     font-weight: 900;
     font-size: 35px;
     line-height: 47px;
     letter-spacing: 1px;
     color: #000000;
+    text-align: center;
+    justify-content: center;
 }
  ul {
     display: flex;
@@ -31,7 +31,7 @@ li {
     line-height: 18px;
     letter-spacing: 2px;
     position: relative;
-    top: 150px; 
+    top: 60px; 
 }
 header a {
     text-decoration: none;
@@ -43,10 +43,10 @@ li:first-child {
 li:last-child {
     margin-right: 100px;
 }
-.title-img .background{
+.title-img .background {
     position: relative;
     top: 0px;
-     z-index: -1;
+    z-index: -1;
     height: 400px;
     text-align: center;
     width: 100%;
@@ -57,7 +57,7 @@ li:last-child {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    top: 200px;
+    top: 100px;
     font-family: Roboto;
     font-style: normal;
     color: white;
@@ -99,20 +99,19 @@ li:last-child {
 .review {
     text-align: center;
     position: relative;
-    top: 250px;
+    top: 150px;
     text-transform: uppercase;
     font-family: Roboto;
     letter-spacing: 2px;
 }
 .card-review {
     font-family: Roboto;
-    text-align: center;
     display: flex;
     position: relative;
-    top: 250px;
-    left: 20px;
+    top: 160px;
     margin: 0px 10px 10px 20px;
     text-align: left;
+    justify-content: center;
 }
 .card-review p {
     text-align: left;
@@ -135,7 +134,7 @@ li:last-child {
 .subscription {
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 230px;
     text-transform: uppercase;
     font-family: Roboto;
     font-size: 15px;
@@ -145,17 +144,17 @@ li:last-child {
     flex-direction: column;
     display: flex;
     position: relative;
-    top: 300px;
-    left: 420px;
+    top: 230px;
+    left: 48vh;
     text-align: center;
     width: 400px;
     margin-top: 10px;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .subscription-card h2 {
     position: relative;
-    top: 20px;
-    left: 120px;
     width: 150px;
     height: 30px;
     padding-top: 20px;
@@ -172,18 +171,20 @@ li:last-child {
 }
 .subscription-card img {
     position: relative;
-    top: -26px;
-    left: 240px;
+    top: -45px;
+    left: 55px;
     z-index: 10;
     width: 25px;
 }
 .subscription-card p {
     position: relative;
+    top: -15px;
     left: 20px;
     font-family: Roboto;
     font-size: 15px;
     width: 400px;
     text-align: center;
+    line-height: 20px;
 }
 .subscription-card a {
     text-decoration: none;
@@ -199,15 +200,15 @@ footer {
     width: 100%;
 }
 footer h2 {
+    display: flex;
     position: relative;
-    width: 347px;
-    height: 47px;
-    left: 495px;
+    left: 5px;
     top: 20px;
     font-weight: 900;
     font-size: 25px;
     line-height: 47px;
     letter-spacing: 1px;
+    justify-content: center;
 }
 .menu-bottom {
     display: flex;
@@ -229,13 +230,16 @@ footer h2 {
     height: 60px;
 }
 .menu-bottom::after {
+    display: flex;
     position: absolute;
+    justify-content: center;
     top: 145px;
     left: 88px;
     content: '';
-    width: 1060px;
+    width: 85%;
     opacity: 0.4;
     border-bottom: 1px solid #FFFFFF;
+
 }
 .menu-bottom a {
     text-decoration: none;
@@ -245,14 +249,11 @@ footer h2 {
     display: inline-block;
     position: relative;
     top: 50px;
-    left: 520px;
+    left: 58vmin;
     width: 50px;
     height: 50px;
-    flex-direction: row;
     margin: 5px;
-    vertical-align: middle;
     background-color: white;
-    background-position: center;
 }
 .social-network div img {
     position: relative;
