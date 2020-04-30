@@ -34,10 +34,7 @@ li {
     position: relative;
     top: 60px; 
 }
-header a {
-    text-decoration: none;
-    color: black;
-}
+
 li:first-child {
     margin-left: 50px;
 }
@@ -52,6 +49,7 @@ li:last-child {
     text-align: center;
     width: 100%;
 }
+
 .title-img{
     display: flex;
     flex-direction: column;
@@ -170,6 +168,9 @@ li:last-child {
     padding-right: 20px;
     margin: 0 auto;
 }
+.subscription-card h2 a:hover {
+    color: black;
+}
 .subscription-card img {
     position: relative;
     top: -35px;
@@ -187,8 +188,7 @@ li:last-child {
     text-align: center;
     line-height: 20px;
 }
-.subscription-card a {
-    text-decoration: none;
+.subscription-card h2 a {
     color: white;
 }
 footer {
@@ -243,7 +243,6 @@ footer h2 {
 
 }
 .menu-bottom a {
-    text-decoration: none;
     color: white;
 }
 .social-network div{
@@ -264,4 +263,11 @@ footer h2 {
     top:15px;
     left: 15px;
     vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:#FF7931;
 }
