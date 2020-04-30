@@ -142,17 +142,15 @@ li:last-child {
     letter-spacing: 2px;
 }
 .subscription-card {
-    flex-direction: column;
-    display: flex;
+    display: block;
     position: relative;
     top: 230px;
-    left: 47vmin;
+    left: 0%;
     text-align: center;
     width: 400px;
     margin-top: 10px;
     font-size: 20px;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 .subscription-card h2 {
     position: relative;
@@ -169,10 +167,11 @@ li:last-child {
     line-height: 14px;
     letter-spacing: 2px;
     padding-right: 20px;
+    margin: 0 auto;
 }
 .subscription-card img {
     position: relative;
-    top: -45px;
+    top: -35px;
     left: 55px;
     z-index: 10;
     width: 25px;
@@ -249,12 +248,14 @@ footer h2 {
 .social-network div{
     display: inline-block;
     position: relative;
-    top: 50px;
-    left: 58vmin;
+    top: 40px;
+    left: 42%;
     width: 50px;
     height: 50px;
-    margin: 5px;
     background-color: white;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-left: 10px;
     
 }
 .social-network div img {
