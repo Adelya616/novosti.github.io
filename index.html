@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang='ru'>
   <head>
     <meta charset='utf-8'>
-    <link rel='stylesheet' href='css/style.css'>
+    <title>HTML Academy: Новости культуры</title>
+    <link rel='stylesheet' href='css/style.min.css'>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
@@ -32,18 +33,20 @@
   построенный на нефти и за счет нефти</p>
     </section>
     <section class='review'>
-    <h2 class = 'review-title' aria-label='Обзоры' tabindex='0'>Обзоры</h2>
+    <h2 class = 'review-title' tabindex='0'>Обзоры</h2>
       <ul class='review-list'>
          <li class='review-item'>
-          <a class='review-item-active' href=''><img src ='img/Mask.jpg' alt='картина Монпарнаса' aria-hidden='true' focusable='false'>
-          <h3>«Шальные годы» Монпарнаса</h3></a>
+          <a class='review-item-active' href=''>
+            <img src ='img/Mask.jpg' alt='картина Монпарнаса'  width='370' height='203'>
+            <h3>«Шальные годы» Монпарнаса</h3>
+          </a>
           <p>В Музее изобразительных искусств имени Пушкина
                 с <br> 29 сентября по 29 ноября проходит выставка <br>
                 «Шальные годы Монпарнаса»</p>
         </li>
 
         <li class='review-item'>
-          <a class='review-item-active'  href=''><img src ='img/Screenshot.png' alt='' aria-hidden='true' focusable='false'>
+          <a class='review-item-active'  href=''><img src ='img/Screenshot.png' alt='' width='370' height='203'>
           <h3>Анатомия за 30 секунд</h3></a>
           <p>Сейчас, когда мир открыт нараспашку для человека <br>
               и его познавательных изысканий, интерес <br>
@@ -51,7 +54,7 @@
         </li>
 
         <li class='review-item'>
-          <a class='review-item-active'  href=''><img src ='img/1.jpg' alt='спектакль "Чудвки и зануды" ' aria-hidden='true' focusable='false'>
+          <a class='review-item-active'  href=''><img src ='img/1.jpg' alt='спектакль "Чудвки и зануды" ' width='370' height='203'>
           <h3>Сферические чудаки</h3></a>
           <p>Корреспондентам «Культурного обозревателя» <br> 
               посчастливилось побывать в театре «Сфера» на <br> премьере 
@@ -62,7 +65,7 @@
     </section>
     <section class='subscription'>
       <div class='border-radius'>
-        <h2 class='subscription-title' aria-label='Абонементы в театр' tabindex='0'>Абонементы в театр</h2>
+        <h2 class='subscription-title' tabindex='0'>Абонементы в театр</h2>
 
         <ul class='subscription-list'>
           <li class='subscription-item'>
@@ -83,12 +86,13 @@
           с актёрами и взять у них автограф</p>
           </li>
         </ul>
-
-        <button href='' type='submit' class='button' aria-label='Смотреть  далее'>Смотреть
-          <svg aria-hidden='true' focusable='false' width="24" height="25" viewBox="0 0 24 25" fi" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4L10.6 5.4L16.2 11H4V13H16.2L10.6 18.6L12 20L20 12L12 4Z" />
-            </svg>          
-        </button>
+        <form action='#' method='get'>
+          <button type='submit' class='button' aria-label='Смотреть  далее'>Смотреть
+            <svg aria-hidden='true' focusable='false' width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4L10.6 5.4L16.2 11H4V13H16.2L10.6 18.6L12 20L20 12L12 4Z" />
+              </svg>          
+          </button>
+        </form>
       </div>
     </section>
     <footer class='footer-main'>
